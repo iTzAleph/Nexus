@@ -5,9 +5,8 @@ module.exports = (client, message, args) => {
 
     let embed = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setAuthor('Avatar de ' + usuario.user.username)
-        .setTitle('Avatar URL')
-        .setURL(usuario.user.displayAvatarURL({dynamic: true}))
+        .setTitle('Avatar de ' + usuario.user.username)
+        .setDescription(`> [Avatar URL](${usuario.user.displayAvatarURL({size : 4096, dynamic: true})})`)
         .setImage(usuario.user.displayAvatarURL({size : 4096, dynamic: true}))
         .setFooter('Pedido por ' + message.author.username)
     message.channel.send(embed) 

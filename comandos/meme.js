@@ -1,6 +1,6 @@
 module.exports = async(client, message, args) => {
     const melphiworker = require('melphiworker')
-    const meme = await melphiworker.meme()
+    let memes = await melphiworker.memes()
      
-    message.channel.send({files: [ meme ]})
+    message.channel.send({files: [ memes ]})
 }

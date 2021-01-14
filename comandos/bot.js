@@ -14,7 +14,7 @@ module.exports = (client, message, args) => {
     .addField('> Links', `[Invitame a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=741435910876561410&permissions=8&scope=bot)`)
     .addField('> Creador', ':wrench: <@!413757069615955969>', true)
     .addField('> Lenguaje', `:pencil:  JavaScript`, true)
-    .addField('> Versión', ':arrow_up: ' + client.config.vercion, true)
+    .addField('> Versión', ':arrow_up: ' + client.config.version, true)
     .addField('> Librería', ':dividers: discord.js v12', true)
     .addField('> Memoria', `:floppy_disk: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`, true)
     .addField('> Tiempo en línea', `:clock1: ${actividad}`, true)

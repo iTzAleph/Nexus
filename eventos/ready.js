@@ -4,7 +4,7 @@ module.exports = (client) => {
         {
         status: "online",
         activity: {
-            name: `nx!help | ${client.config.vercion} | ${client.guilds.cache.size} servidores.`,
+            name: `nx!help | ${client.config.version} | ${client.guilds.cache.size} servidores.`,
             type: "PLAYING"
             }
         }

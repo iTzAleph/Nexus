@@ -1,0 +1,7 @@
+let config = {
+    token: "TOKEN",
+    prefix: "Prefix", 
+    version: "",
+  }
+
+  module.exports = config;
